@@ -2,27 +2,116 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Data Engineering Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Krisha Maharjan | Data Engineering Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; margin: 2em; }
-    h1 { color: #336699; }
-    a { text-decoration: none; color: #1a73e8; }
-    .project { margin-bottom: 1.5em; }
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x400/?technology,data') no-repeat center center;
+      background-size: cover;
+      padding: 4rem;
+      color: white;
+      text-shadow: 1px 1px 2px black;
+      text-align: center;
+    }
+    .badge-tech {
+      margin: 0.2em;
+    }
+    footer {
+      background: #f8f9fa;
+      padding: 2em;
+    }
   </style>
 </head>
 <body>
-  <h1>Data Engineering Portfolio</h1>
-  <p>Hi! I'm a detail oriented and motivated data engineer with 3 years of hands-on-experience in designing, developing, and optimizing data pipelies and architectures. Adept in SQL, python, and big data technologies, including PySpark, I seek to leverage my expertise in data integration and ETL processes to contribute to innovative data solutions, drie data-driven decision making and enhance the efficiency of data workflows in a dynamic and collaborative environment. Here are some of my projects:</p>
 
-  <div class="project">
-    <h2>🗃️ Amazon Sales ETL Pipeline</h2>
-    </p>Basic pandas and python based ETL pipeline to extract raw csv data, perform appropriate transformation and load it into the destination table following medallion architecture and star schema modelling</p>
-    <a href="https://github.com/KrishaMaharjan-00/Stock-Market-Prediction">View on GitHub</a>
-    
-    <h2>🗃️ Stock Market Prediction</h2>
-    </p>Project to pedict stock market using stock market csv's data from kaggle, pandas, numpy and maplotlib for data preprocessing and sklearn and tensorflow libraries for prediction</p>
-    <a href="https://github.com/KrishaMaharjan-00/Stock-Market-Prediction">View on GitHub</a>
+  <header class="hero">
+    <h1>Krisha Maharjan</h1>
+    <p class="lead">Data Engineer | AI/ML Enthusiast | ETL Builder</p>
+  </header>
+
+  <div class="container my-5">
+
+    <section id="projects">
+      <h2 class="mb-4 text-center">🚀 Projects</h2>
+      <div class="row">
+
+        <!-- Project 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">🗃️ Amazon Sales ETL Pipeline </h5>
+              <p class="card-text">Basic ETL pipeline using Python, Pandas, and SQLServer to process and transform amazon sales data.</p>
+              <a href="https://github.com/KrishaMaharjan-00/Amazon-Sales-ETL-Pipeline" class="btn btn-outline-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">🌐 Extract Twitter Data Using Tweepy</h5>
+              <p class="card-text">Script to extract twitter data using tweepy and load it into MongoDB after appropriate transormations.</p>
+              <a href="https://github.com/KrishaMaharjan-00/TwitterData" class="btn btn-outline-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">📊 Intelligent Virtual Assistant</h5>
+              <p class="card-text"> Simple python based voice assistant to assist in daily activities.</p>
+              <a href="https://github.com/KrishaMaharjan-00/IntelligentVirtualAssistant" class="btn btn-outline-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="my-5">
+
+    <section id="skills">
+      <h2 class="mb-4 text-center">🧠 Skills & Technologies</h2>
+      <div class="text-center">
+        <img class="badge-tech" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+        <img class="badge-tech" src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
+        <img class="badge-tech" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+        <img class="badge-tech" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+        <img class="badge-tech" src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" />
+        <img class="badge-tech" src="https://img.shields.io/badge/dbt-FE5C6A?style=for-the-badge&logo=dbt&logoColor=white" />
+        <img class="badge-tech" src="https://img.shields.io/badge/Airbyte-00BFFF?style=for-the-badge&logo=airbyte&logoColor=white" />
+        <img class="badge-tech" src="https://img.shields.io/badge/Dagster-2D2DFF?style=for-the-badge&logo=dagster&logoColor=white" />
+        <img class="badge-tech" src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white" />
+        <img class="badge-tech" src="https://img.shields.io/badge/Prefect-292929?style=for-the-badge&logo=prefect&logoColor=white" />
+        <img class="badge-tech" src="https://img.shields.io/badge/Data%20Vault-4B0082?style=for-the-badge&logo=data&logoColor=white" />
+      </div>
+    </section>
+
+    <hr class="my-5">
+
+    <section id="contact">
+      <h2 class="mb-4 text-center">📬 Contact</h2>
+      <p class="text-center">
+        <i class="fas fa-envelope"></i> <a href="mailto:krisha.theonly1@gmail.com">Email</a><br>
+        <i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/krish-maharjan-160280222" target="_blank">LinkedIn</a> |
+        <i class="fab fa-github"></i> <a href="https://github.com/KrishaMaharjan-00" target="_blank">GitHub</a>
+      </p>
+    </section>
+
   </div>
+
+  <footer class="text-center">
+    <p>&copy; 2025 Krisha Maharjan. Built with HTML + Bootstrap.</p>
+  </footer>
+
 </body>
 </html>
